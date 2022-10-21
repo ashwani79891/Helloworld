@@ -8,7 +8,8 @@ trigger:
 
 pool:
   name: self hosted
-  vmImage: self1
+  demands:
+   - agent.name -equals self1
 
 variables:
   solution: '**/*.sln'
