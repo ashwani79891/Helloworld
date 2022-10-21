@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
- ashwani pool
+ name: ashwaniagent
+ vmImage: ashwani pool
 
 variables:
   solution: '**/*.sln'
